@@ -354,3 +354,42 @@ p {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
 }
+/* heart */
+.heart{
+  background-color: var(--bg);
+  width: 70px;
+  height: 130px;
+  position: absolute;
+  left: 60px;
+  border-radius: 50px 50px 0 0;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  -ms-border-radius: 50px 50px 0 0;
+  -o-border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+.heart::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: var(--bg);
+  width: 70px;
+  height: 130px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 50px 50px 0 0;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  -ms-border-radius: 50px 50px 0 0;
+  -o-border-radius: 50px 50px 0 0;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
